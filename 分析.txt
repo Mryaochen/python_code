@@ -1,0 +1,6 @@
+<div class="pic fl">
+            <a href="https://new.qq.com/rain/a/20230331A03B0500" target="_blank" data-beacon-expo="qn_elementid=yw9_1&amp;qn_event_type=show" data-beacon-click="qn_elementid=yw9_1&amp;qn_event_type=click" newsexpo="yw9_1" dt-imp-once="true" dt-eid="em_item_article" dt-params="article_url=https://new.qq.com/rain/a/20230331A03B0500&amp;article_type=&amp;dt_element_path=['em_item_article']">
+            <img src="https://inews.gtimg.com/newsapp_bt/0/0331133600942_9768/0" alt="财政部：进一步完善税费优惠政策，支持小微企业、个体户">
+            </a>
+        </div>
+ex = '<div class="pic fl">.*?<img src="(.*?)" alt.*?</div>'
