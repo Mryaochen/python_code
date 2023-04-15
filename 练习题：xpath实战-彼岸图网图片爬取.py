@@ -11,7 +11,7 @@ from lxml import etree
 from UA import headers
 import os
 if __name__ == '__main__':
-    #未解决
+    #时灵时不灵
     url = 'https://pic.netbian.com/e/search/result/?searchid=4318'
 
     response = requests.get(url=url,headers=headers)
