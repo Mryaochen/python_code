@@ -1,0 +1,12 @@
+/.settings
+/build
+/logs
+/.classpath
+/target
+/.idea
+.project
+*.iml
+/target/
+*.html
+*.pyc
+*.logs
