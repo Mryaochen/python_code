@@ -68,7 +68,10 @@ LOG_LEVEL = 'ERROR'
 #ITEM_PIPELINES = {
 #    "threekingdoms.pipelines.ThreekingdomsPipeline": 300,
 #}
-
+ITEM_PIPELINES = {
+   "threekingdoms.pipelines.ThreekingdomsPipeline": 300,
+    #300表示的是优先级，数值越小优先级越高
+}
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True

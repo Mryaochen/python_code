@@ -6,7 +6,9 @@
 import scrapy
 
 
-class ThreekingdomsItem(scrapy.Item):
+class ThreekingdomsItem(scrapy.Item): #在item类中定义相关的属性
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    # pass
+    heroName = scrapy.Field()
+    heroImgpath = scrapy.Field()
