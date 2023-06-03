@@ -70,6 +70,7 @@ LOG_LEVEL = 'ERROR'
 #}
 ITEM_PIPELINES = {
    "threekingdoms.pipelines.ThreekingdomsPipeline": 300,
+   # "threekingdoms.pipelines.mysqlPileLine": 301,
     #300表示的是优先级，数值越小优先级越高
 }
 # Enable and configure the AutoThrottle extension (disabled by default)
