@@ -79,7 +79,7 @@ class MiddleproDownloaderMiddleware:
         #UA伪装
         request.headers['User-Agent'] = random.choice(self.user_agent_list)
         #为了验证代理的操作是否生效
-        request.meta['proxy'] = 'https://20.24.43.214:8123'
+        request.meta['proxy'] = 'http://8.130.76.112:7890'
         return None
     #拦截所有的响应
     def process_response(self, request, response, spider):

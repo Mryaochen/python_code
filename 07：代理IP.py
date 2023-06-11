@@ -10,10 +10,10 @@ from UA import headers
 import requests
 if __name__ == '__main__':
     #1 指定url
-    url = 'https://www.baidu.com/s?wd=IP'
+    url = 'http://www.huangdao.net/cha/ip/'
     #2 封装代理
     proxy = {
-        'https':'20.111.54.16:8123'
+        'http':'49.51.232.203:80'
     }
     #3 发起请求获取响应数据
     page_text = requests.get(url=url,headers=headers,proxies=proxy).text
