@@ -51,8 +51,8 @@ class WangyiproDownloaderMiddleware:
 
             return new_response
         else:
-            response #其他请求对应的响应对象
-        return response
+            # response #其他请求对应的响应对象
+            return response
 
     def process_exception(self, request, exception, spider):
         # Called when a download handler or a process_request()
